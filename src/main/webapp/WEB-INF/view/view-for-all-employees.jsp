@@ -9,9 +9,10 @@
 
 <h3>Information for all Employees</h3>
 <br><br>
-<security:authorize></security:authorize>
-<input type="button" value="Salary"
-       onclick="window.location.href = 'hr_info'">
+<security:authorize>
+    <input type="button" value="Salary"
+           onclick="window.location.href = 'hr_info'">
+</security:authorize>
 Only for HR stuff!
 
 <br><br>
