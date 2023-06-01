@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan("com.zaurtregulov.spring.security")
+@ComponentScan(basePackages = "com.zaurtregulov.spring.security")
 @EnableWebMvc
 public class MyConfig {
     @Bean
