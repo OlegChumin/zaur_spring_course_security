@@ -3,9 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/spring_course_security_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
-        <element id="directory" name="classes">
-          <element id="module-output" name="spring_course_security" />
-        </element>
+        <element id="directory" name="classes" />
       </element>
     </root>
   </artifact>
