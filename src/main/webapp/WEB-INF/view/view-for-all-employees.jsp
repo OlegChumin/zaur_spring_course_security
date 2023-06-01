@@ -1,3 +1,4 @@
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -8,6 +9,7 @@
 
 <h3>Information for all Employees</h3>
 <br><br>
+<security:authorize></security:authorize>
 <input type="button" value="Salary"
        onclick="window.location.href = 'hr_info'">
 Only for HR stuff!
